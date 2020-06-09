@@ -1,0 +1,80 @@
+@media screen and (max-width:1110px) {
+    .left {
+        width: 100%;
+        float: none;
+    }
+
+    .right {
+        width: 100%;
+        float: none;
+    }
+
+
+}
+
+@media screen and (max-width:1008px) {
+    .logo {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .login {
+        width: 500px;
+        color: #fff;
+        float: none;
+        margin: 10px auto;
+
+    }
+
+    .login form {
+        float: none;
+    }
+}
+
+@media screen and (max-width:615px) {
+    .logo {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .login {
+        width: 100%;
+        color: #fff;
+        float: none;
+        margin: 10px auto;
+
+    }
+
+    .login input[type="text"],
+    .login input[type="password"] {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .login input[type="submit"] {
+        margin-top: 10px;
+
+    }
+
+    .login .email,
+    .login .password,
+    .login .log {
+        float: none;
+        margin-right: 0px;
+    }
+
+
+    .login form {
+        float: none;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .container {
+        width: 80%;
+
+
+    }
+}
